@@ -1,0 +1,158 @@
+* {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 5px 0 0 10%;
+}
+
+h3 {
+    padding: 5px 0 0 40px;
+    text-align: right;
+    color: white;
+}
+/* Navbar */
+
+.top-banner {
+    background-color: rgb(159, 210, 252);
+    color: white;
+    display: flex;
+}
+
+.cities {
+    position:relative;
+    right: -50%;
+    top: 5px;
+}
+
+/* San Jose Temp Section  */
+.sj {
+    display: flex;
+}
+
+.san-jose {
+    padding: 10px 0 10px 10%;
+}
+
+#temp-label {
+    padding-top: 10px;
+    padding-right: 40px;
+    position: relative;
+    left: 60%;
+    margin-top: 10px;
+}
+
+#degrees {
+    position: relative;
+    left: 58%;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+hr {
+    /* width: 56.5%; */
+    width: 1080px;
+    height: 2px;
+    background-color: black;
+}
+
+/* 4 day forecast section */
+
+.forecast-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: right;  */
+    flex-direction: column;
+    
+}
+
+.four-days {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.one-day {
+    display: block;
+    text-align: center;
+    background-color:rgb(219, 217, 217);
+    margin: 0 20px;
+    
+}
+
+.some-rain-image {
+    width: 200px;
+    border-radius: 50%;
+    padding: 0 20px;
+}
+
+.hi-low {
+    display: flex;
+    justify-content: space-around;
+}
+
+.high-temp {
+    color: red;
+}
+
+.low-temp {
+    color: blue;
+}
+
+/* Cookies Section */
+
+.cookies {
+    border: 3px solid black;
+    width: 1040px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.cookie-pic {
+    padding: 10px 20px;
+    position: relative;
+    top: 10px;
+}
+
+.button-div {
+    display: inline;
+    
+}
+
+.accept {
+    display: flex;
+    background-color: rgb(159, 210, 252);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0 2px;
+    width: 80px;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    
+}
+
+.accept:hover {
+    cursor: pointer;
+}
+
+.cookie-span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(37, 37, 250);
+    font-size: 1rem;
+}
+

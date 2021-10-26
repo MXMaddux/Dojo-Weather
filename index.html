@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top-banner">
+        <h1>DojoWeather</h1>
+        <a class="cities" href="index.html" rel="noopener noreferrer" onclick="announcement()"><h3>Burbank</h3></a>
+        <a class="cities" href="index.html" rel="noopener noreferrer" onclick="announcement()"><h3>Chicago</h3></a>
+        <a class="cities" href="index.html" rel="noopener noreferrer" onclick="announcement()"><h3>Dallas</h3></a>
+    </div>
+
+    <!-- San Jose Temp Section -->
+    <div class="sj">
+        <h2 class="san-jose">San Jose</h2>
+        <label for="temperatures" id="temp-label">Show temperature in </label>
+
+        <select onchange="convert_temp(this)" name="degrees" id="degrees">
+          <option id="celcius" value="celcius">°C</option>
+          <option id="fahrenheit" value="fahrenheit">°F</option>
+          
+        </select> 
+    </div>
+    <hr>
+    <div class="forecast-container">
+        <div class="four-days">
+            <div class="one-day">
+                <h2 class="today">Today</h2>
+            <img class="some-rain-image" src="images/some_rain.png" alt="some rain">
+            <p>some rain</p>
+            <div class="hi-low">
+                <h1><span class="high-temp">24</span>°</h1>
+                <h1><span class="low-temp">18</span>°</h1>
+            </div>
+            </div>
+            <div class="one-day">
+                <h2 class="today">Tomorrow</h2>
+            <img class="some-rain-image" src="images/some_sun.png" alt="some rain">
+            <p>some sun</p>
+            <div class="hi-low">
+                <h1><span class="high-temp">27</span>°</h1>
+                <h1><span class="low-temp">19</span>°</h1>
+            </div>
+            </div>
+            <div class="one-day">
+                <h2 class="today">Friday</h2>
+            <img class="some-rain-image" src="images/some_clouds.png" alt="some rain">
+            <p>some clouds</p>
+            <div class="hi-low">
+                <h1><span class="high-temp">21</span>°</h1>
+                <h1><span class="low-temp">16</span>°</h1>
+            </div>
+            </div>
+            <div class="one-day">
+                <h2 class="today">Saturday</h2>
+            <img class="some-rain-image" src="images/some_sun.png" alt="some rain">
+            <p>some sun</p>
+            <div class="hi-low">
+                <h1><span class="high-temp">26</span>°</h1>
+                <h1><span class="low-temp">21</span>°</h1>
+            </div>
+            <!-- Cookies Section -->
+            </div>
+    </div>
+    <div class="cookies">
+        <div><img class="cookie-pic" src="images/cookie.png" alt="cookie"></div>
+        <div>
+            <h2 id="cookie-text">Stop! Cookie time</h2>
+            <p id="cookie-text-2">We use cookies (Sadly, not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic.<span class="cookie-span"><a href="index.html">Read more...</a></span></p>
+        </div>
+        <div class="button-div">
+            <button class="accept" onclick="erase_text()">I Accept</button>
+        </div>
+    </div>
+    </div>
+
+    
+    
+        
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
